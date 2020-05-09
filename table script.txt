@@ -1,0 +1,16 @@
+-- Table: public.coviddata
+
+-- DROP TABLE public.coviddata;
+
+CREATE TABLE public.coviddata
+(
+    casemonth character varying(20) COLLATE pg_catalog."default",
+    cases character varying(20) COLLATE pg_catalog."default",
+    totaldeceased character varying(20) COLLATE pg_catalog."default",
+    totalrecovered character varying(20) COLLATE pg_catalog."default"
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE public.coviddata
+    OWNER to postgres;
